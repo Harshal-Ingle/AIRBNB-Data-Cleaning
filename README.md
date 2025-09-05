@@ -3,12 +3,10 @@
 ## Executive Summary  
 This project focuses on the crucial first step of the **data science workflow: data cleaning and preprocessing**. Using a large dataset of Airbnb listings, the goal was to transform raw, messy data into a clean, structured format suitable for analysis and modeling. The process included **handling missing values, standardizing column names, and correcting data types** to ensure data quality and reliability.  
 
----
 
 ## Business Problem  
 Raw data is often **inconsistent, incomplete, and incorrectly formatted**, making it unsuitable for accurate analysis. For a platform like Airbnb, poor data quality can lead to unreliable insights about **pricing, host behavior, and market trends**. This project solves the challenge of preparing a **robust, clean dataset** that can support reliable business analysis and predictive modeling.  
 
----
 
 ## Methodology  
 The data cleaning process was executed in **Python** using the **Pandas** library:  
@@ -32,7 +30,6 @@ The data cleaning process was executed in **Python** using the **Pandas** librar
 6. **Standardization**  
    - Converted all values in `host_identity_verified` column to **uppercase** for consistency.  
 
----
 
 ## Skills Demonstrated  
 - **Python**: Data manipulation & scripting  
@@ -41,7 +38,6 @@ The data cleaning process was executed in **Python** using the **Pandas** librar
 - **File I/O**: Exporting cleaned data to CSV & Excel  
 - **GitHub**: Version control & project documentation  
 
----
 
 ## Results  
 The cleaning process produced a **refined dataset** with the following improvements:  
@@ -55,7 +51,3 @@ The cleaned dataset is now **ready for Exploratory Data Analysis (EDA)** and pre
 - Exploring relationships between **price, neighborhood, and room type**.  
 - Building a **predictive model** for Airbnb listing prices.  
 - Visualizing **host activity and cancellation policies** across locations.  
-
----
-
-## 📂 Project Structure  
